@@ -19,10 +19,7 @@ import java.util.InputMismatchException;
  */
 
 public class QuickSorter extends AbstractSorter
-{
-	
-	// Other private instance variables if you need ... 
-		
+{		
 	/** 
 	 * Constructor takes an array of points.  It invokes the superclass constructor, and also 
 	 * set the instance variables algorithm in the superclass.
@@ -31,7 +28,6 @@ public class QuickSorter extends AbstractSorter
 	 */
 	public QuickSorter(Point[] pts)
 	{
-		// TODO 
 		super(pts);
 		algorithm = "quicksort";
 	}
@@ -44,7 +40,6 @@ public class QuickSorter extends AbstractSorter
 	@Override 
 	public void sort()
 	{
-		// TODO 
 		quickSortRec(0, points.length - 1);
 
 	}
@@ -58,7 +53,6 @@ public class QuickSorter extends AbstractSorter
 	 */
 	private void quickSortRec(int first, int last)
 	{
-		// TODO
 		if (first >= last) {
 			return;
 		}
@@ -78,7 +72,6 @@ public class QuickSorter extends AbstractSorter
 	 */
 	private int partition(int first, int last)
 	{
-		// TODO 
 		int midpoint = first + (last - first) / 2;
 		Point pivot = points[midpoint];
 		boolean done = false;
@@ -107,5 +100,4 @@ public class QuickSorter extends AbstractSorter
 		return last;
 	}		
 	
-	// Other private methods if needed ...
 }
