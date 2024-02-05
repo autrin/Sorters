@@ -15,7 +15,6 @@ import java.util.InputMismatchException;
 
 public class MergeSorter extends AbstractSorter
 {
-	// Other private instance variables if needed
 
 	/** 
 	 * Constructor takes an array of points.  It invokes the superclass constructor, and also 
@@ -25,7 +24,6 @@ public class MergeSorter extends AbstractSorter
 	 */
 	public MergeSorter(Point[] pts) 
 	{
-		// TODO  
 		super(pts);
 		algorithm = "mergesort";
 
@@ -79,9 +77,7 @@ public class MergeSorter extends AbstractSorter
 	}
 
 
-	// Other private methods if needed ...
 	/**
-	 * @author Autrin Hakimi
 	 * merge the left and right half together and add them to D
 	 * @param left
 	 * @param right
