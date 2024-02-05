@@ -26,7 +26,6 @@ public class InsertionSorter extends AbstractSorter
 	 */
 	public InsertionSorter(Point[] pts) 
 	{
-		// TODO 
 		super(pts);
 		algorithm = "insertion sort";
 	}	
@@ -38,7 +37,6 @@ public class InsertionSorter extends AbstractSorter
 	@Override 
 	public void sort()
 	{
-		// TODO 
 		int i = 0; //denotes the starting position of the current element in the unsorted part
 		int j = 0; //keeps track of the index of the current element being inserted into the sorted part
 		for (i = 1; i < points.length; ++i) {
