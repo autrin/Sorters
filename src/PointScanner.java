@@ -1,11 +1,4 @@
 package edu.iastate.cs228.hw2;
-
-/**
- * 
- * @author Autrin Hakimi
- *
- */
-
 import java.io.FileNotFoundException;
 import java.util.InputMismatchException;
 import java.io.File;
@@ -191,7 +184,6 @@ public class PointScanner
 	 */
 	public void writeMCPToFile() throws FileNotFoundException
 	{
-		// TODO 
 		try {
 			File myObj = new File("newFile.txt");
 			//			if (myObj.createNewFile()) {
