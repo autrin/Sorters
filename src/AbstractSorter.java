@@ -33,8 +33,6 @@ public abstract class AbstractSorter
 	//	two points by their 𝑥-coordinates or 𝑦-coordinates
 
 
-	// Add other protected or private instance variables you may need. 
-
 
 	protected AbstractSorter()
 	{
